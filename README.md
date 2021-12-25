@@ -11,6 +11,7 @@ qemu-system-x86_64 -cdrom ./dist/x86_64/kernel.iso
 ### CODE ###
 
 # FizzBuzz
+{
 void kernel_main()
 {
   print_clear();
@@ -34,6 +35,7 @@ void kernel_main()
     print_newline();
   }
 
+}
 }
 
 # Interupts (someday)
