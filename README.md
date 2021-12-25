@@ -1,5 +1,5 @@
-### COMMANDS ###
-
+# COMMANDS
+```
 docker build buildenv -t myos-buildenv
 
 docker run --rm -it -v "%cd%":/root/env goldos
@@ -7,10 +7,11 @@ docker run --rm -it -v "%cd%":/root/env goldos
 make build-x86_64
 
 qemu-system-x86_64 -cdrom ./dist/x86_64/kernel.iso
+```
+# CODE
 
-### CODE ###
-
-# FizzBuzz
+### FizzBuzz
+```
 void kernel_main()
 {
   print_clear();
@@ -35,5 +36,6 @@ void kernel_main()
   }
 
 }
+```
 
-# Interupts (someday)
+### Interupts (someday)
